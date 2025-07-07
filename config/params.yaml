@@ -1,0 +1,13 @@
+model_trainer:
+  pretrained_weights: "yolov8s.pt"
+  imgsz: 640
+  batch: 4            # Lower batch for CPU
+  epochs: 5
+  lr0: 0.01
+  patience: 5
+  device: "cpu"       # ✅ Required on your system
+  optimizer: "SGD"
+  seed: 42
+  project: "artifact/model_trainer"
+  name: "helmet_detector"
+  exist_ok: true

@@ -1,0 +1,11 @@
+data_ingestion:
+  download_url: "https://github.com/shobanjatoth/mlops_insurance/raw/main/helmet67.zip"
+  zip_file_name: "dataset.zip"
+  extracted_dir: "helmet_dataset"
+
+data_validation:
+  schema_relative_path: "coco128.yaml"
+  expected_train_dir: "train/images"
+  expected_val_dir: "val/images"
+  expected_classes: ["with helmet", "without helmet", "rider", "number plate"]
+  num_classes: 4

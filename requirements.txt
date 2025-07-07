@@ -1,0 +1,16 @@
+opencv-python
+numpy
+matplotlib
+Pillow
+tqdm
+gdown
+pyyaml
+scipy
+ultralytics
+imutils
+seaborn
+jupyter
+gdown
+from_root
+# Local editable install
+-e .
