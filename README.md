@@ -2,7 +2,7 @@
 
 🪖 Helmet Violation Detection System
 A real-time Helmet Detection application built using YOLOv8, FastAPI, Docker, and MLOps best practices. This system detects whether a person riding a two-wheeler is wearing a helmet and provides endpoints to process images, videos, and live webcam feeds.
-
+![Helmet Detection Example](images/helmet.jpg)
 🚀 Features
 🔍 YOLOv8 model for accurate helmet detection.
 
